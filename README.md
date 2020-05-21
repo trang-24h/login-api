@@ -1,29 +1,21 @@
-# INSTALL NODE #
-sudo apt install nodejs
+### `Install node`
+sudo apt-get update
+sudo apt-get install nodejs
 
-# INSTALL NPM #
-sudo apt install npm
+### `Install npm`
+sudo apt-get install npm
 
-# RUN PROJECT #
+### `Run project`
 npm install
 npm start
 
-API : /api/login
+Runs the app in the development mode.<br />
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Test with: [http://localhost:3000/api/login]
+Method : POST
+Body : {username, password}
 
-request body : {username, password}
-
-List valid user :
-[
-  {
-    username: "thuhang",
-    password: "thuhang123",
-  },
-  {
-    username: "kimtinh",
-    password: "kimtinh123",
-  },
-  {
-    username: "quangvan",
-    password: "quangvan123",
-  },
-]
+### `List valid user`
+{"thuhang","thuhang123"},
+{"kimtinh","kimtinh123"},
+{"quangvan","quangvan123"}
